@@ -1,0 +1,5 @@
+{
+  "name": "HealthVista AI",
+  "description": "Intelligent personal health & fitness tracker powered by Gemini. Track sleep, diet, exercise, and daily habits with actionable insights.",
+  "requestFramePermissions": []
+}

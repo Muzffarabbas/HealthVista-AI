@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply text-gray-900 bg-[#f5f5f5];
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+.prose h1, .prose h2, .prose h3 {
+  @apply font-display font-bold text-gray-900 mt-6 mb-3;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed;
+}
+
+.prose ul {
+  @apply list-disc pl-5 mb-4 space-y-2;
+}
+
+.prose li {
+  @apply text-gray-600;
+}
+
+.prose strong {
+  @apply text-gray-900 font-semibold;
+}
